@@ -1,0 +1,24 @@
+{
+    "$ref": "#/definitions/User",
+    "definitions": {
+        "User": {
+            "type": "object",
+            "title": "User",
+            "description": "Fake User Object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                },
+                "jobTitle": {
+                    "type": "string"
+                },
+                "companyId": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
